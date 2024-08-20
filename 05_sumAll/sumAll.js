@@ -9,7 +9,7 @@ const sumAll = function(firstInt, secondInt) {
                 }
                 break;
             case (dif<0):
-                for (let i = secondInt; i<= secondInt; i-- ){
+                for (let i = firstInt; i>= secondInt; i-- ){
                     sum += i; 
                 }
                 break;
@@ -19,6 +19,6 @@ const sumAll = function(firstInt, secondInt) {
         return "ERROR";
     } 
 };
-sumAll(5, 10);
+sumAll(10, 5);
 // Do not edit below this line
 module.exports = sumAll;
