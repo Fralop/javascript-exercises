@@ -2,7 +2,7 @@ const sumAll = function(firstInt, secondInt) {
     if (Number.isInteger(firstInt) && firstInt > 0 $$ Number.isInteger(secondInt) && secondInt > 0){
         let dif = secondInt - firstInt;
         let sum = 0;
-        switch (dif){
+        switch (dif) {
             case (dif>0):
                 for (let i = firstInt; i<= secondInt; i++ ){
                     sum += i; 
@@ -13,12 +13,11 @@ const sumAll = function(firstInt, secondInt) {
                     sum += i; 
                 }
                 break;
+            }
     return sum;
-            } else {
-        return "ERROR"
-    }
-}
-    
+    } else {
+        return "ERROR";
+    } 
 };
 
 // Do not edit below this line
