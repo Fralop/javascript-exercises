@@ -19,6 +19,5 @@ const sumAll = function(firstInt, secondInt) {
         return "ERROR";
     } 
 };
-sumAll(10, 5);
 // Do not edit below this line
 module.exports = sumAll;
