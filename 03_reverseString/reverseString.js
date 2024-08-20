@@ -5,7 +5,7 @@ const reverseString = function(string) {
         newArray.push (stringArray[i]); 
     } 
     let newString = newArray.join("");
-    return newString;
+    return newString; 
 };
 
 // Do not edit below this line
