@@ -15,6 +15,7 @@ const removeFromArray = function() {
             finalArray.push(tempArray[h]);
         }
    }
+   console.log(args);
 return finalArray;
 };
 // Do not edit below this line
