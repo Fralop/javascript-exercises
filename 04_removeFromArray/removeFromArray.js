@@ -12,13 +12,9 @@ const removeFromArray = function() {
     }
    for (let h = 0; h < tempArray.length; h++ ) {
         if (tempArray[h] !== undefined) {
-            finalArray.unshift(tempArray[h]);
+            finalArray.push(tempArray[h]);
         }
    }
-console.log(args);
-console.log(FromArray);
-console.log(tempArray);
-console.log(finalArray);
 return finalArray;
 };
 // Do not edit below this line
