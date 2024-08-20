@@ -21,8 +21,7 @@ const removeFromArray = function (array, ...args) {
 // which basically does what we did with the forEach above.
 
 const removeFromArray = function(array, ...args) {
-return array.filter(val => !args.includes(val))
-}
+returngit 
 //
 
 module.exports = removeFromArray;
