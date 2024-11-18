@@ -3,11 +3,13 @@ const fibonacci = function(input) {
     if (n>=0) {
     let fiboArr = [0, 1];
     for (let i=2; i<=n; i++) {
-        fibArr[i] = fiboArr[i-1] + fiboArr[i-2];
+        fiboArr[i] = fiboArr[i-1] + fiboArr[i-2];
         }
-    return fiboArr[i];
+    return fiboArr[n];
     } else return "OOPS";
 };
+
+let result = fibonacci (6);
 
 // Do not edit below this line
 module.exports = fibonacci;
